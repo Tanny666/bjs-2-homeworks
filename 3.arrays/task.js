@@ -1,5 +1,4 @@
 function compareArrays(arr1, arr2) {
-
 	if (arr1.length !== arr2.length) {
 
 		return false;
@@ -11,7 +10,6 @@ function compareArrays(arr1, arr2) {
 
 
 function getUsersNamesInAgeRange(users, gender) {
-
 	const averageAge = users
 		.filter(user => user.gender === gender)
 		.map(user => user.age)
